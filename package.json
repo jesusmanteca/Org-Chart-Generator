@@ -1,0 +1,22 @@
+{
+  "name": "org-chart-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusmanteca/Org-Chart-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesusmanteca/Org-Chart-Generator/issues"
+  },
+  "homepage": "https://github.com/jesusmanteca/Org-Chart-Generator#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
