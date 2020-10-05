@@ -208,10 +208,18 @@ function app() {
     };
 
     function generateSquad() {
-
+        const dataFile = generateMarkdown(squad)
+        writeToFile(dataFile)
     };
 
-    createManager();
+    function writeToFile(data){
+        fs.writeFile('./dist/index.html', data, (err) => {
+            if (err) throw err;
+            console.log('The file has been saved!');
+          });
+    }
+
+    createManager()
 }
 
 app()
