@@ -140,7 +140,7 @@ function app() {
                 },
             }
         ]).then(answers => {
-            const engineer = new Engineer(answers.engineerName, answers.engineerId, answers.engineerEmail, answers.engineerGithub);
+            const engineer = new Engineer(answers.engineerName, answers.engineerID, answers.engineerEmail, answers.engineerGitHub);
 
             //push the engineer to the squad array
             squad.push(engineer);

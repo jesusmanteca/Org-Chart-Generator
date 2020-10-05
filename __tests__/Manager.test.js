@@ -7,7 +7,7 @@ test("passes office number through the constructor", () => {
 })
 
 test("get Manager with getRole()", () => {
-    const role = "Manager Extraordinaire"
+    const role = "Manager"
     const manager = new Manager("Guadalupe", 123, "lupe@email.com", 5555555555)
     expect(manager.getRole()).toBe(role)
 })
