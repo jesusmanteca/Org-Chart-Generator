@@ -26,23 +26,19 @@ Available for the public
 
 ISC
 
-## Contributing
-
-n/a
-
 ## Tests
 
-${data.testInstructions}
+jest software to test 
 
 ## Languages Used
 
-javascript
+javascript, nodejs, html, css
 
 ## For More Information
 
-https://github.com/jesusmanteca
+[Link of my GitHub](https://github.com/jesusmanteca)
+
 
 ## Link to video of tests and how app should work
 
-
-
+[Link to video](https://youtu.be/9XMKYIxoryg)
